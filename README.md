@@ -2,7 +2,7 @@
 
 **Blog** est une application developpee avec le **FrameWork Angular** qui liste un ensemble d'article classes par rubrique.
 
-Voir une demo sur [odomegah](https://odomegah.com/angular/blog)
+Voir une demo sur [angular-blog](https://angular-blog-v2.onrender.com/)
 
 ## Pourquoi developper un blog avec angular ?
 Dans l'intention de comprendre le fonctionnement des routes **d'Angular**, un blog d'article est le mieux adopte.
