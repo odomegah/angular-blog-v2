@@ -1,27 +1,31 @@
-# Blog
+# Angular | Blog
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
+**Blog** est une application developpee avec le **FrameWork Angular** qui liste un ensemble d'article classes par rubrique.
 
-## Development server
+Voir une demo sur [odomegah](https://odomegah.com/angular/blog)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Pourquoi developper un blog avec angular ?
+Dans l'intention de comprendre le fonctionnement des routes **d'Angular**, un blog d'article est le mieux adopte.
 
-## Code scaffolding
+Ce blog affiche un article en fonction de son **id** et de son **titre=slug**.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Chaque article appartient a une rubrique et nous avons deux rubrique sur ce blog.
 
-## Build
+D'ou, le format de l'url suivant:
+_site.com/rubrique/id/slug_
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Comment est gere l'etat de cette application ?
+Pour cette application, j'ai decide de gerer l'etat par **un systeme de service** que fournit **Angular**.
 
-## Running unit tests
+**Le service** fournit les methodes ci-dessous a chaque composant ayant besoin.
+1. afficherToutesLesArticles()
+1. afficherUnArticleId(id,slug)
+1. afficherUneRubrique(type)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Le style CSS de cette application
+Pour me concentrer que sur la partie Angular, j'ai decide de me faire aider par la librairie **pico.csss**.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Me contacter
+ **Portfolio** [odomegah.com](https://odomegah.com)
