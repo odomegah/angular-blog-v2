@@ -1,0 +1,10 @@
+<article *ngIf="articleUnique">
+    <h1>{{articleUnique.titre}}</h1>
+    <p>{{articleUnique.rubrique}}</p>
+    <p>{{articleUnique.description}}</p>
+</article>
+
+<article *ngIf="articleUnique === undefined">
+    <h1>404</h1>
+    <p>Page introuvable</p>
+</article>

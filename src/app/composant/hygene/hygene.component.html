@@ -1,0 +1,11 @@
+<section>
+    <article *ngFor="let article of hygeneListe">
+        <a [routerLink]="['/',article.rubrique,article.id,article.titre.replace(' ','-')]" >
+            <img src="https://placehold.co/400x200" [alt]="article.titre">
+        <div>
+           <h1>{{article.titre}}</h1>
+           <p>{{article.description.substring(0,100)}}...</p>
+        </div>
+        </a>
+    </article>
+</section>
